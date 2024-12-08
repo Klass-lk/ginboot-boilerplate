@@ -37,8 +37,10 @@ func main() {
 
 	// Initialize and register controllers
 	userController := controller.NewUserController(*userRepository)
+	pingController := controller.NewPingController()
 
 	server.RegisterController("/users", userController)
+	server.RegisterController("/ping", pingController)
 
 	if err := server.Start(8080); err != nil {
 		log.Fatal(err)
