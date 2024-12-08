@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/danushkaherath/klass-go/boilerplate/internal/controller"
-	"github.com/danushkaherath/klass-go/boilerplate/internal/repository"
+	"boilerplate/internal/controller"
+	"boilerplate/internal/repository"
 	"github.com/klass-lk/ginboot"
 )
 

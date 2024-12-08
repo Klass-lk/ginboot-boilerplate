@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/danushkaherath/klass-go/boilerplate/internal/model"
+	"boilerplate/internal/model"
 	"github.com/klass-lk/ginboot"
 	"go.mongodb.org/mongo-driver/mongo"
 )

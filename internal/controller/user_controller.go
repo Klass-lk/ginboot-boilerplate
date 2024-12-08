@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/danushkaherath/klass-go/boilerplate/internal/model"
-	"github.com/danushkaherath/klass-go/boilerplate/internal/repository"
+	"boilerplate/internal/model"
+	"boilerplate/internal/repository"
 	"github.com/gin-gonic/gin"
 	"github.com/klass-lk/ginboot"
 	"net/http"
